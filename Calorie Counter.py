@@ -19,17 +19,17 @@ class Goals:
 
     def loseWeight(self):
         lose_cals = list(map(lambda x: self.weight * x, self.lose_fat))
-        print("The following are the calories you need to stay in between to reach your goal")
+        print("The following are the calories you need to stay in between to reach your goal - Lets begin Tracking your Caloric Intake!")
         print(lose_cals)
 
     def maintainWeight(self):
         maintain_cals = list(map(lambda x: self.weight * x,self.maintain))
-        print("The following are the calories you need to stay in between to reach your goal")
+        print("The following are the calories you need to stay in between to reach your goal - Lets begin Tracking your Caloric Intake!")
         print(maintain_cals)
 
     def gainMuscle(self):
         strong_cals = list(map(lambda x: self.weight * x, self.gain_muscle))
-        print("The following are the calories you need to stay in between to reach your goal")
+        print("The following are the calories you need to stay in between to reach your goal - Lets begin Tracking your Caloric Intake!")
         print(strong_cals)
 
 class User:
